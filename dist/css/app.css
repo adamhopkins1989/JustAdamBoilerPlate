@@ -1,17 +1,259 @@
 /**
 * global */
-/**
-* global */
-/**
-* colors */
-/**
-* container */
-/**
-* buttons */
-/**
-* nav */
-/** fonts */
+/* color */
+@font-face {
+  font-family: 'blowbrush';
+  src: url("../fonts/blowbrush-webfont.woff") format("woff"), url("../fonts/blowbrush-webfont.woff2");
+  format: "woff2";
+  /* Pretty Modern Browsers */
+  font-weight: normal;
+  font-style: normal; }
+
+.wrapper {
+  max-width: 1100px;
+  margin: 0px auto; }
+
 body {
-  font-family: "Ubuntu", sans-serif; }
+  font-family: "blowbrush", serif; }
+
+html {
+  box-sizing: border-box;
+  height: 100%; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+a {
+  cursor: pointer;
+  color: #fff;
+  transition-duration: 2s; }
+
+a:hover {
+  color: #000;
+  text-decoration: underline; }
+
+h2 {
+  font-size: 40px;
+  text-decoration: underline; }
+
+#logo {
+  background-color: #000000;
+  padding: 0px;
+  display: table;
+  width: 100%; }
+  #logo .left-logo__image {
+    display: table-cell;
+    width: 50%;
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
+    padding: 60px; }
+
+.right-logo__menu {
+  display: table-cell;
+  width: 50%;
+  position: relative; }
+  .right-logo__menu h2 {
+    color: #fff;
+    text-align: right;
+    margin: 10px;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%); }
+
+h2 {
+  text-align: center; }
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block; }
+
+audio,
+canvas,
+video {
+  display: inline-block; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+[hidden], template {
+  display: none; }
+
+html {
+  background: #fff;
+  color: #000;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif; }
+
+body {
+  margin: 0; }
+
+a {
+  background: transparent; }
+  a:focus {
+    outline: thin dotted; }
+  a:hover, a:active {
+    outline: 0; }
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0; }
+
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0; }
+
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0; }
+
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0; }
+
+h6 {
+  font-size: 0.75em;
+  margin: 2.33em 0; }
+
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+b,
+strong {
+  font-weight: bold; }
+
+dfn {
+  font-style: italic; }
+
+mark {
+  background: #ff0;
+  color: #000; }
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+small {
+  font-size: 80%; }
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+img {
+  border: 0; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+figure {
+  margin: 0; }
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal; }
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline; }
+
+button, input {
+  line-height: normal; }
+
+button,
+select {
+  text-transform: none; }
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+button[disabled],
+input[disabled] {
+  cursor: default; }
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+textarea {
+  overflow: auto;
+  vertical-align: top; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+  input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none; }
+
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0; }
 
 /*# sourceMappingURL=app.css.map */

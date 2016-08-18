@@ -1,0 +1,30 @@
+#logo {
+    background-color: #000000;
+    padding: 0px;
+    display: table;
+    width: 100%;
+
+    .left-logo__image {
+        display: table-cell;
+        width: 50%;
+        background-image: url("../images/logo.png");
+        background-repeat: no-repeat;
+        background-position: 5% 50%;
+        padding:60px;
+    }
+}
+
+.right-logo__menu {
+    display: table-cell;
+    width: 50%;
+    position: relative;
+        h2 {
+            color: #fff;
+            text-align: right;
+            margin: 10px;
+             position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+        }
+}
